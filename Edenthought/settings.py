@@ -28,7 +28,7 @@ environ.Env.read_env()
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['development-production.up.railway.app']
 
@@ -160,7 +160,7 @@ STATIC_URL = 'static/'
 
 MEDIA_URL = 'images/'
 
-STATICFILES_DIRS = [ BASE_DIR / 'static' ]
+STATICFILES_DIRS = [ BASE_DIR / '/app/static' ]
 
 MEDIA_ROOT = BASE_DIR / 'static/images'
 
