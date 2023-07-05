@@ -23,6 +23,6 @@ class Thought(models.Model):
 # Profile model
 class Profile(models.Model):
 
-    profile_pic = models.ImageField(null=True, blank=True, default="/images/default.png")
+    profile_pic = models.ImageField(null=True, blank=True, default="/static/images/default.png")
 
     user = models.ForeignKey(User, max_length=10, on_delete=models.CASCADE, null=True)
