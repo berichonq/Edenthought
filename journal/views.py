@@ -40,7 +40,7 @@ def register(request):
 
             form.save()
 
-            send_mail("Welcome to Edenthought " + current_user.username + "!", "Congratualations on creating your account!",
+            send_mail("Welcome to Edenthought " + current_user.username + "!", "Congratulations on creating your account!",
                       settings.DEFAULT_FROM_EMAIL, [ current_user.email ])
 
             # Create a blank object for a single instance with a foreign key attached
