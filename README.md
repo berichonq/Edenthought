@@ -1,5 +1,5 @@
-# development
-Edenthought Django Web App
+# Edenthought Django Web App
+*No longer online*
 Edenthought
 Application Screenshot
 
